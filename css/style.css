@@ -6,18 +6,20 @@ body{
 .navbar-expand-lg{
     background-color: orange;
 }
-/*div:nth-of-type(ul){*/
+/*div:nth-of-type(ul) {*/
 /*    display: flex;*/
 /*    flex-direction: row;*/
 /*align-items: center;*/
 /*    margin: 10px;*/
 
 
+
 /*}*/
-.pic-footer{
-display: flex;
-    align-content: flex-start;
-}
+/*.pic-footer{*/
+/*display: flex;*/
+/*    align-content: flex-start;*/
+    /*align-self: baseline;*/
+/*}*/
 .work {
     display: flex;
     list-style: none;
@@ -26,13 +28,27 @@ display: flex;
     flex-wrap: wrap;
     /*flex-grow: 2;*/
 }
+h5{
+    display: inline;
+   margin: 0px;
+    padding: 0px;
+}
 .work-sm{
     display: flex;
     list-style: none;
     flex-direction: row;
     /*justify-content: center;*/
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     align-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+    /*height: 50px;*/
+}
+.work-sm li{
+    list-style-type: none;
+    text-indent: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 #design {
     display: flex;
@@ -56,7 +72,7 @@ display: flex;
     align-items: center;
     justify-content: center;
     /*border: white solid 10px;*/
-    margin: 50px;
+    /*margin: 50px;*/
 }
 #develop {
     display: flex;
@@ -80,7 +96,7 @@ display: flex;
     align-items: center;
     justify-content: center;
     /*border: white solid 10px;*/
-    margin: 50px;
+    /*margin: 50px;*/
 }
 #support {
     display: flex;
@@ -104,7 +120,7 @@ display: flex;
     align-items: center;
     justify-content: center;
     /*border: white solid 10px;*/
-    margin: 50px;
+    /*margin: 50px;*/
 }
 #host {
     display: flex;
@@ -128,16 +144,22 @@ display: flex;
     align-items: center;
     justify-content: center;
     /*border: white solid px;*/
-    margin: 50px;
+    /*margin: 50px;*/
 }
-/*@media screen and (min-width: 576px) {*/
+@media screen and (min-width: 576px) {
 
-/*    .work {*/
-/*        display: flex;*/
-/*        list-style: none;*/
-/*        flex-wrap: wrap;*/
-/*    }*/
+    /*.work {*/
+    /*    display: flex;*/
+    /*    list-style: none;*/
+    /*    flex-wrap: wrap;*/
+    }
+    @media screen and (min-width: 768px) {
 
+        /*.work {*/
+        /*    display: flex;*/
+        /*    list-style: none;*/
+        /*    flex-wrap: wrap;*/
+        }
 /*}*/
 hr{
     margin: 0 100px;
@@ -150,4 +172,12 @@ h6{
     /*display: flex;*/
     /*justify-content: center;*/
     padding: 0;
+
 }
+@media (max-width: 576px) {
+
+    /*.work {*/
+    /*    display: flex;*/
+    /*    list-style: none;*/
+    /*    flex-wrap: wrap;*/
+    }
