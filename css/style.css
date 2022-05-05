@@ -15,11 +15,10 @@ body{
 
 
 /*}*/
-/*.pic-footer{*/
-/*display: flex;*/
-/*    align-content: flex-start;*/
-    /*align-self: baseline;*/
-/*}*/
+.pic-footer{
+    align-items: center;
+
+}
 .work {
     display: flex;
     list-style: none;
@@ -39,7 +38,7 @@ h5{
     flex-direction: row;
     /*justify-content: center;*/
     /*flex-wrap: wrap;*/
-    align-content: flex-start;
+    align-content: center;
     margin: 0px;
     padding: 0px;
     /*height: 50px;*/
@@ -72,7 +71,7 @@ h5{
     align-items: center;
     justify-content: center;
     /*border: white solid 10px;*/
-    /*margin: 50px;*/
+    margin: 5px;
 }
 #develop {
     display: flex;
@@ -96,7 +95,7 @@ h5{
     align-items: center;
     justify-content: center;
     /*border: white solid 10px;*/
-    /*margin: 50px;*/
+    margin: 5px;
 }
 #support {
     display: flex;
@@ -120,7 +119,7 @@ h5{
     align-items: center;
     justify-content: center;
     /*border: white solid 10px;*/
-    /*margin: 50px;*/
+    margin: 5px;
 }
 #host {
     display: flex;
@@ -144,7 +143,7 @@ h5{
     align-items: center;
     justify-content: center;
     /*border: white solid px;*/
-    /*margin: 50px;*/
+    margin: 5px;
 }
 @media screen and (min-width: 576px) {
 
