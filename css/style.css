@@ -17,6 +17,8 @@ body{
 /*}*/
 .pic-footer{
     align-items: center;
+    justify-content: space-between;
+    font-family: 'Abel', sans-serif;
 
 }
 .work {
@@ -26,6 +28,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     /*flex-grow: 2;*/
+
 }
 h5{
     display: inline;
@@ -48,6 +51,7 @@ h5{
     text-indent: 0px;
     margin: 0px;
     padding: 0px;
+
 }
 #design {
     display: flex;
@@ -180,3 +184,7 @@ h6{
     /*    list-style: none;*/
     /*    flex-wrap: wrap;*/
     }
+h1 {
+    font-family: 'Anton', sans-serif;
+
+}
